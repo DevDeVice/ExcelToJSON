@@ -978,9 +978,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\ExcelToJSON_eng.csproj",
-      "projectName": "ExcelToJSON_eng",
-      "projectPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\ExcelToJSON_eng.csproj",
+      "projectUniqueName": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
+      "projectName": "KsaweryAPP",
+      "projectPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
       "packagesPath": "C:\\Users\\sebastiand\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\obj\\",
       "projectStyle": "PackageReference",

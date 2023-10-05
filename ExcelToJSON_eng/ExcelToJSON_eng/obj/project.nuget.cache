@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ujXS5+U0A96ildyBIex8q9vMhfs9P+RoNq4DHi/ubKmFphzCkU+QgwvbArknFoKF1RLKsAptZS0q37lbObh4tg==",
+  "dgSpecHash": "8qG9UpO3358d74YyEQ04BDgNM+U2LNthoKzrKP/kDN68G99mKV5S3BSL9tO0IX9F9Rrduxt8g567G1mA2tlASg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\ExcelToJSON_eng.csproj",
+  "projectFilePath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebastiand\\.nuget\\packages\\epplus\\6.2.10\\epplus.6.2.10.nupkg.sha512",
     "C:\\Users\\sebastiand\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",

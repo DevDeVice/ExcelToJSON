@@ -1,0 +1,21 @@
+﻿<Window x:Class="KsaweryApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KsaweryApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid x:Name="gridMenu" Visibility="Hidden">
+            <Button x:Name="btnExcelToJSON_PL" Content="ExcelToJSON PL" HorizontalAlignment="Left" Margin="100,50,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="btnExcelToJSON_PL_Click"/>
+            <Button x:Name="btnExcelToJSON_ENG" Content="ExcelToJSON ENG" HorizontalAlignment="Left" Margin="238,50,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="btnExcelToJSON_ENG_Click"/>
+        </Grid>
+        <Grid x:Name="gridExcelToJSONPL" Visibility="Visible">
+            <Button x:Name="btnBack" Content="Back" Click="btnBack_Click" Margin="300,360,300,30"/>
+        </Grid>
+        <Grid x:Name="gridExcelToJSONENG" Visibility="Hidden">
+            <Button x:Name="btnBack2" Content="Back" Click="btnBack2_Click" Margin="300,360,300,30"/>
+        </Grid>
+    </Grid>
+</Window>
