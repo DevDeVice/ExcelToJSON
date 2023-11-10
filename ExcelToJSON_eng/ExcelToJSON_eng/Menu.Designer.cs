@@ -38,7 +38,7 @@
             this.openExcelToJSONeng.Name = "openExcelToJSONeng";
             this.openExcelToJSONeng.Size = new System.Drawing.Size(118, 43);
             this.openExcelToJSONeng.TabIndex = 0;
-            this.openExcelToJSONeng.Text = "ExcelToJSONeng";
+            this.openExcelToJSONeng.Text = "Ilość";
             this.openExcelToJSONeng.UseVisualStyleBackColor = true;
             this.openExcelToJSONeng.Click += new System.EventHandler(this.openExcelToJSONeng_Click);
             // 
@@ -48,7 +48,7 @@
             this.openExcelToJSONpl.Name = "openExcelToJSONpl";
             this.openExcelToJSONpl.Size = new System.Drawing.Size(118, 43);
             this.openExcelToJSONpl.TabIndex = 1;
-            this.openExcelToJSONpl.Text = "ExcelToJSONpl";
+            this.openExcelToJSONpl.Text = "Promocje";
             this.openExcelToJSONpl.UseVisualStyleBackColor = true;
             this.openExcelToJSONpl.Click += new System.EventHandler(this.openExcelToJSONpl_Click);
             // 
