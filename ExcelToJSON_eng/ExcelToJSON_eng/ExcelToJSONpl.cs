@@ -66,9 +66,10 @@ namespace KsaweryAPP
 
                 for (int row = int.Parse(wierszBox.Text); row <= rowCount; row++)
                 {
-                    string odIlosci = worksheet.Cells[row, int.Parse(iloscBox.Text)].Text;
-                    string cena = worksheet.Cells[row, int.Parse(cenaBox.Text)].Text.Replace(",", "."); ;
-                    string indeks = worksheet.Cells[row, int.Parse(indexBox.Text)].Text;
+                    string odIlosci = worksheet.Cells[row, ConvertColumnLetterToNumber(iloscBox.Text)].Text;
+                    odIlosci = odIlosci.Replace("\r\n", "").Replace("\n", "");
+                    string cena = worksheet.Cells[row, ConvertColumnLetterToNumber(cenaBox.Text)].Text.Replace(",", ".");
+                    string indeks = worksheet.Cells[row, ConvertColumnLetterToNumber(indexBox.Text)].Text;
 
                     if (string.IsNullOrEmpty(odIlosci) || string.IsNullOrEmpty(cena) || string.IsNullOrEmpty(indeks)) continue;
 
@@ -76,7 +77,7 @@ namespace KsaweryAPP
                     srodekBuilder.AppendLine(srodekRow);
                 }
                 string srodek = srodekBuilder.ToString().TrimEnd(',');
-
+                srodek = srodek.Substring(0, srodek.Length - 3);
                 string finalJson = start + Environment.NewLine + srodek + Environment.NewLine + stringKoniec;
                 System.IO.File.WriteAllText(jsonOutputPath, finalJson);
                 MessageBox.Show("Wyeksportowano pomyślnie!", "Eksport", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -128,6 +129,15 @@ namespace KsaweryAPP
             }
             return string.Empty;
         }
+        public int ConvertColumnLetterToNumber(string columnLetter)
+        {
+            int columnNumber = 0;
+            foreach (char c in columnLetter.ToUpper())
+            {
+                columnNumber = columnNumber * 26 + (c - 'A' + 1);
+            }
+            return columnNumber;
+        }
         private bool validationCreateJsonFromExcel()
         {
             if (string.IsNullOrEmpty(textFile.Text))
@@ -145,21 +155,6 @@ namespace KsaweryAPP
             if (!int.TryParse(wierszBox.Text, out _))
             {
                 MessageBox.Show("Nieprawidłowa wartość w polu Wiersz. Proszę wpisać liczbę całkowitą.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
-            if (!int.TryParse(indexBox.Text, out _))
-            {
-                MessageBox.Show("Nieprawidłowa wartość w polu Index. Proszę wpisać liczbę całkowitą.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
-            if (!int.TryParse(cenaBox.Text, out _))
-            {
-                MessageBox.Show("Nieprawidłowa wartość w polu Cena. Proszę wpisać liczbę całkowitą.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
-            if (!int.TryParse(iloscBox.Text, out _))
-            {
-                MessageBox.Show("Nieprawidłowa wartość w polu Ilość. Proszę wpisać liczbę całkowitą.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
             return true;

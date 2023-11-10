@@ -50,6 +50,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cenaBox3 = new System.Windows.Forms.TextBox();
             this.iloscBox3 = new System.Windows.Forms.TextBox();
+            this.textWALUTA = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -232,11 +234,29 @@
             this.iloscBox3.Size = new System.Drawing.Size(100, 23);
             this.iloscBox3.TabIndex = 35;
             // 
-            // Form1
+            // textWALUTA
+            // 
+            this.textWALUTA.Location = new System.Drawing.Point(137, 118);
+            this.textWALUTA.Name = "textWALUTA";
+            this.textWALUTA.Size = new System.Drawing.Size(100, 23);
+            this.textWALUTA.TabIndex = 41;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(137, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 15);
+            this.label4.TabIndex = 42;
+            this.label4.Text = "Waluta";
+            // 
+            // ExcelToJSONeng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textWALUTA);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cenaBox3);
@@ -259,7 +279,7 @@
             this.Controls.Add(this.BtnGenerateJSON);
             this.Controls.Add(this.textFile);
             this.Controls.Add(this.BtnSelectFile);
-            this.Name = "Form1";
+            this.Name = "ExcelToJSONeng";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -290,5 +310,7 @@
         private Label label6;
         private TextBox cenaBox3;
         private TextBox iloscBox3;
+        private TextBox textWALUTA;
+        private Label label4;
     }
 }
