@@ -19,7 +19,7 @@ namespace KsaweryAPP
         }
 
         private void openExcelToJSONpl_Click(object sender, EventArgs e)
-        {
+        { 
             ExcelToJSONpl secondForm = new();
             secondForm.ShowDialog();
         }
@@ -27,6 +27,11 @@ namespace KsaweryAPP
         private void openExcelToJSONeng_Click(object sender, EventArgs e)
         {
             ExcelToJSONeng secondForm = new();
+            secondForm.ShowDialog();
+        }
+        private void removeErrorFromJson_Click(object sender, EventArgs e)
+        {
+            RemoveErrorFromJson secondForm = new();
             secondForm.ShowDialog();
         }
     }
