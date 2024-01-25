@@ -65,10 +65,16 @@ namespace KsaweryAPP
             }
             for (int i = 0; i < foundValues.Count; i++)
             {
-                foundValues[i] = foundValues[i].Trim(); // Usunięcie znaków białych z początku i końca
-                                                        // lub
-                                                        // foundValues[i] = foundValues[i].Replace(" ", ""); // Usunięcie wszystkich spacji
-                                                        // Możesz użyć Replace z innymi znakami białymi, np. "\t" (tabulator) lub "\n" (znak nowej linii).
+                foundValues[i] = foundValues[i].Replace(" ", ""); // Usunięcie spacji z każdego elementu
+                foundValues[i] = foundValues[i].Replace("\t", ""); // Usunięcie tabulatorów z każdego elementu
+                foundValues[i] = foundValues[i].Replace("\n", ""); // Usunięcie znaków nowej linii z każdego elementu
+
+                // Dodatkowo, możesz sprawdzić i usunąć puste elementy
+                if (string.IsNullOrEmpty(foundValues[i]))
+                {
+                    foundValues.RemoveAt(i);
+                    i--; // Zmniejszenie indeksu, aby nie pomijać nowego elementu po usunięciu
+                }
             }
             // Odczytanie zawartości pliku JSON
             string jsonContent = File.ReadAllText(textJSON.Text);
@@ -76,7 +82,7 @@ namespace KsaweryAPP
             // Usunięcie określonego indeksu z zawartości JSON
             foreach (var value in foundValues)
             {
-                string pattern = $@"{{""Indeks"":""{value}""[^}}]+}}";
+                string pattern = $@"{{[^{{}}]*""Indeks""[^{{}}]*:""{value}""[^{{}}]*}}\s*,\s*";
                 jsonContent = Regex.Replace(jsonContent, pattern, "", RegexOptions.Singleline);
             }
 
