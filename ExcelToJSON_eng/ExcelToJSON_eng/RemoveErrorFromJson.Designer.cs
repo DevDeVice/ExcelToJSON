@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.File = new System.Windows.Forms.Label();
-            this.textFile = new System.Windows.Forms.TextBox();
+            this.labelFile = new System.Windows.Forms.Label();
+            this.textJSON = new System.Windows.Forms.TextBox();
             this.BtnSelectJSON = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textHTML = new System.Windows.Forms.TextBox();
             this.BtnSelectHTML = new System.Windows.Forms.Button();
             this.BtnGenerateJSON = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // File
+            // labelFile
             // 
-            this.File.AutoSize = true;
-            this.File.Location = new System.Drawing.Point(12, 13);
-            this.File.Name = "File";
-            this.File.Size = new System.Drawing.Size(35, 15);
-            this.File.TabIndex = 19;
-            this.File.Text = "JSON";
+            this.labelFile.AutoSize = true;
+            this.labelFile.Location = new System.Drawing.Point(12, 13);
+            this.labelFile.Name = "labelFile";
+            this.labelFile.Size = new System.Drawing.Size(35, 15);
+            this.labelFile.TabIndex = 19;
+            this.labelFile.Text = "JSON";
             // 
-            // textFile
+            // textJSON
             // 
-            this.textFile.Location = new System.Drawing.Point(12, 31);
-            this.textFile.Name = "textFile";
-            this.textFile.Size = new System.Drawing.Size(763, 23);
-            this.textFile.TabIndex = 18;
+            this.textJSON.Location = new System.Drawing.Point(12, 31);
+            this.textJSON.Name = "textJSON";
+            this.textJSON.Size = new System.Drawing.Size(763, 23);
+            this.textJSON.TabIndex = 18;
             // 
             // BtnSelectJSON
             // 
@@ -72,12 +72,12 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "HTML";
             // 
-            // textBox1
+            // textHTML
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(763, 23);
-            this.textBox1.TabIndex = 21;
+            this.textHTML.Location = new System.Drawing.Point(12, 108);
+            this.textHTML.Name = "textHTML";
+            this.textHTML.Size = new System.Drawing.Size(763, 23);
+            this.textHTML.TabIndex = 21;
             // 
             // BtnSelectHTML
             // 
@@ -106,10 +106,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BtnGenerateJSON);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textHTML);
             this.Controls.Add(this.BtnSelectHTML);
-            this.Controls.Add(this.File);
-            this.Controls.Add(this.textFile);
+            this.Controls.Add(this.labelFile);
+            this.Controls.Add(this.textJSON);
             this.Controls.Add(this.BtnSelectJSON);
             this.Name = "RemoveErrorFromJson";
             this.Text = "RemoveErrorFromJson";
@@ -120,11 +120,11 @@
 
         #endregion
 
-        private Label File;
-        private TextBox textFile;
+        private Label labelFile;
+        private TextBox textJSON;
         private Button BtnSelectJSON;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox textHTML;
         private Button BtnSelectHTML;
         private Button BtnGenerateJSON;
     }
