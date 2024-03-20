@@ -33,3 +33,16 @@ C:\Users\sebastiand\source\repos\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj
 C:\Users\sebastiand\source\repos\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.pdb
 C:\Users\sebastiand\source\repos\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.genruntimeconfig.cache
 C:\Users\sebastiand\source\repos\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\ref\KsaweryAPP.dll
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.csproj.AssemblyReference.cache
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\ExcelToJSON_eng.ExcelToJSONeng.resources
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.ExcelToJSONpl.resources
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.Menu.resources
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.RemoveErrorFromJson.resources
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.csproj.GenerateResource.cache
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.AssemblyInfoInputs.cache
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.AssemblyInfo.cs
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.csproj.CoreCompileInputs.cache
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.dll
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\ref\KsaweryAPP.dll
+C:\Users\sejko\Desktop\SearchApp\ExcelToJSON\ExcelToJSON_eng\ExcelToJSON_eng\obj\Debug\net6.0-windows\KsaweryAPP.pdb

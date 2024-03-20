@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj": {}
+    "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj": {
+    "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
+        "projectUniqueName": "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
         "projectName": "KsaweryAPP",
-        "projectPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
-        "packagesPath": "C:\\Users\\sebastiand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\obj\\",
+        "projectPath": "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\KsaweryAPP.csproj",
+        "packagesPath": "C:\\Users\\sejko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\ExcelToJSON_eng\\ExcelToJSON_eng\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sebastiand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sejko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

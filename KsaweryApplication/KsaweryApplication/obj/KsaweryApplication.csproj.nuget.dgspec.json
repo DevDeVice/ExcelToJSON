@@ -1,28 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj": {}
+    "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj": {
+    "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj",
+        "projectUniqueName": "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj",
         "projectName": "KsaweryApplication",
-        "projectPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj",
-        "packagesPath": "C:\\Users\\sebastiand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebastiand\\source\\repos\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\obj\\",
+        "projectPath": "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\KsaweryApplication.csproj",
+        "packagesPath": "C:\\Users\\sejko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sejko\\Desktop\\SearchApp\\ExcelToJSON\\KsaweryApplication\\KsaweryApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sebastiand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sejko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -49,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
