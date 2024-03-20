@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.IO;
 using System.Reflection;
 using System.Text;
@@ -58,10 +59,11 @@ namespace ExcelToJSON_eng
             {
                 const string start = "{\"ZakresWylaczenGrupKontrah\":0,\"SposLaczUmowyZRabat\":1,\"ZakresKontrah\":0,\"SposLaczPromZUmonNaCene\":0,\"Typ\":2,\"ZakresKarotek\":1,\"ZaleznaOd\":1,\"ListaKartotek\":[";
                 const string srodekTemplate = "{{\"CenaBrutto\":0,\"Waluta\":\"{3}\",\"OdIlosci\":{0},\"Procent\":0,\"Cena\":{1},\"Indeks\":\"{2}\"}},";
-                const string koniec = "],\"ListaGrupKart\":[],\"DataOd\":\"2023-11-10\",\"DataDo\":\"\",\"OdIlosci\":0,\"ZakresMag\":0,\"ZakresDok\":0,\"ListaMag\":[],\"ListaDok\":[],\"SposLaczPromZUmonNaBonif\":0,\"ZakresWylaczenKontrah\":0,\"ListaCech\":[],\"Procent\":0,\"ZakresGrupKontrah\":1,\"Uwagi\":\" \",\"Parametr\":1,\"Opis\":\"{0}\",\"vast-oil\",\"ZakresGrupKart\":0,\"UmowaDla\":\"36\"}}";
+                const string koniec = "],\"ListaGrupKart\":[],\"DataOd\":\"{1}\",\"DataDo\":\"\",\"OdIlosci\":0,\"ZakresMag\":0,\"ZakresDok\":0,\"ListaMag\":[],\"ListaDok\":[],\"SposLaczPromZUmonNaBonif\":0,\"ZakresWylaczenKontrah\":0,\"ListaCech\":[],\"Procent\":0,\"ZakresGrupKontrah\":1,\"Uwagi\":\" \",\"Parametr\":1,\"Opis\":\"{0}\",\"vast-oil\",\"ZakresGrupKart\":0,\"UmowaDla\":\"36\"}}";
                 string opis = textJSON.Text.ToString();
                 string waluta = textWALUTA.Text.ToString();
-                string stringKoniec = string.Format(koniec, opis);
+                string tomorrowDate = DateTime.Now.AddDays(1).ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+                string stringKoniec = string.Format(koniec, opis, tomorrowDate);
                 var worksheet = package.Workbook.Worksheets[0];
                 int rowCount = worksheet.Dimension.Rows;
                 List<RowData> rows = new List<RowData>();
